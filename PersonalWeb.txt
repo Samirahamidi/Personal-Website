@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samira Hamiditehrani</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #EEF5DB;
+            color: #4F6367;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #7A9E9F;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #B8D8D8;
+        }
+        nav a {
+            margin: 10px;
+            padding: 10px;
+            color: #4F6367;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #4F6367;
+            color: #EEF5DB;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #4F6367;
+            padding-bottom: 10px;
+        }
+        .project, .publication {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #7A9E9F;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Samira Hamiditehrani</h1>
+        <p>PhD Graduate, Urban and Transportation Planner</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am a PhD graduate from McMaster University. Throughout my doctoral research, I led a project and conducted extensive research on cutting-edge topics such as Automated Vehicles (AVs) and Shared Mobility (SM), alongside delving into current travel behavior in Canadian Census Metropolitan Areas (CMAs). My most recent research explores the complex realm of psychological factors influencing Canadians’ intention to use and financially support unprecedented travel modes, utilizing complex statistical approaches.</p>
+            <p>In addition to my academic background, I have several years of experience in consulting companies, specializing in Urban and Transportation Planning roles.</p>
+        </div>
+        <div id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Vaughan Mobility Action Plan; Vaughan, ON, Canada</h3>
+                <p>Developed eligibility and admission criteria scorecards to assist City of Vaughan in screening innovative automotive technologies and smart mobility projects and optimizing the selection process.</p>
+                <p><strong>Role:</strong> Urban Planner</p>
+            </div>
+            <div class="project">
+                <h3>Toronto Traffic Conflict Analysis; Toronto, ON, Canada</h3>
+                <p>Extracted and processed Raw Data for Right-Turn Channels and Left-turn Calming from the AMAG platform. Provided descriptive analysis and report for effectiveness of the traffic calming treatments.</p>
+                <p><strong>Role:</strong> Urban Planner</p>
+            </div>
+            <!-- Repeat for other projects as needed -->
+        </div>
+        <div id="publications" class="section">
+            <h2>Publications</h2>
+            <div class="publication">
+                <h3>S. Hamiditehrani, D. Scott, M. Sweet. “Design of the Future Mobility in Canada Survey (FMCS) to assess the evolving mobility landscape in urban Canada with an emphasis on automated vehicles”.</h3>
+                <p><a href="https://link.springer.com/article/10.1007/s11116-024-10484-7">Transportation, 1-48</a></p>
+            </div>
+            <div class="publication">
+                <h3>S. Hamiditehrani, D. Scott, M. Sweet. “Shared Versus Pooled Automated Vehicles: Understanding Behavioral Intentions Towards Adopting On-Demand Automated Vehicles”</h3>
+                <p><a href="https://doi.org/10.1016/j.tbs.2024.100774">Travel Behavior and Society Journal</a></p>
+            </div>
+            <!-- Repeat for other publications as needed -->
+        </div>
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:samira.hamiditehrani@example.com">samira.hamiditehrani@example.com</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Samira Hamiditehrani. All rights reserved.</p>
+    </footer>
+</body>
+</html>
