@@ -50,6 +50,59 @@
             color: #EEF5DB;
         }
 
+        .dropbtn {
+            background-color: #B8D8D8;
+            color: #4F6367;
+            padding: 10px 15px;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Ensure same font-family */
+            font-size: 16px; /* Ensure same font-size */
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+            text-decoration: none;
+            margin: 0 15px;
+            display: inline-block;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            transition: background-color 0.3s;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #4F6367;
+            color: #EEF5DB;
+        }
+
         .container {
             flex: 1;
             padding: 20px;
@@ -81,17 +134,17 @@
 
     <nav>
         <a href="index.html">Home</a>
-        <a href="#about">About Me</a>
+        <a href="index.html#about">About Me</a>
         <div class="dropdown">
             <button class="dropbtn">Projects</button>
             <div class="dropdown-content">
                 <a href="project1.html">Project 1</a>
-                <a href="#">Project 2</a>
-                <a href="#">Project 3</a>
+                <a href="project2.html">Project 2</a>
+                <a href="project3.html">Project 3</a>
             </div>
         </div>
-        <a href="#publications">Publications</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html#publications">Publications</a>
+        <a href="index.html#contact">Contact</a>
     </nav>
 
     <div class="container">
